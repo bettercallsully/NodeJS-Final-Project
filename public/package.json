@@ -1,0 +1,24 @@
+{
+  "name": "sullys-final-project",
+  "version": "1.0.0",
+  "description": "Final Project for NODEYQR Course",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bettercallsully/nodejs-final-project.git"
+  },
+  "author": "Solomon El-kelani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bettercallsully/nodejs-final-project.git/issues"
+  },
+  "homepage": "https://github.com/bettercallsully/nodejs-final-project.git#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-server": "^0.12.0"
+  }
+}
