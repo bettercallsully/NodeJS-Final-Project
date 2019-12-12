@@ -24,9 +24,8 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 14px; 
-  background-blend-mode:color-dodge;
-  background-color: moccasin;
+  font-size: 14px;
+  background-color: cornsilk; 
 }
 
 h1,
@@ -210,7 +209,7 @@ img {
   background-repeat: no-repeat; }
 
 .bg-white {
-  background-color: #ffffff !important; }
+  background-color: white !important; }
 
 .bg-dark {
   background-color: #000000 !important; }
@@ -1241,9 +1240,10 @@ textarea:focus {
 .contact-form-area .form-control {
   height: 52px;
   width: 100%;
-  background-color: #f3f5f8;
-  font-size: 12px;
-  font-style: italic;
+  background-color: lightgreen;
+  font-size: 14px;
+  font-weight: 100;
+  font-style: monospace;
   margin-bottom: 15px;
   border: none;
   border-left: 3px solid #f3f5f8;
