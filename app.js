@@ -1,7 +1,6 @@
-const express = require('node')
-const app = node()
+const express = require('express')
+const app = express()
 const port = 3000
-const app = mongodb()
 
 app.get('/', (req, res) => res.send(''))
 
