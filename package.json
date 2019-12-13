@@ -19,7 +19,6 @@
   "homepage": "https://github.com/bettercallsully/nodejs-final-project.git#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "node": "13.3.0",
-    "mongoose": "5.8.1"
+    "node": "^13.3.0"
   }
 }
