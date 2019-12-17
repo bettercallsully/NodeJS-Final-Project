@@ -1,10 +1,9 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = process.env.PORT || 5000
 
-app.get('/', (req, res) => res.send(''))
+app.use(express.static('public'))
 
-//MongoDB Database Config Link
-mongodb+srv;//solomonelkelani:campbell1996@cluster0-eg3u3.mongodb.net/test?retryWrites=true&w=majority
 
-app.listen(port, () => console.log(`Listening on port ${port}!`))
+
+app.listen(port, () => console.log(`Listening on port ${5000}!`))
