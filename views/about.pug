@@ -1,0 +1,202 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='description', content='')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  // The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags
+  // Title
+  title About
+  // Favicon
+  link(rel='icon', href='img/core-img/favicon.ico')
+  // Core Stylesheet
+  link(rel='stylesheet', href='style.css')
+// Preloader
+#preloader
+  i.circle-preloader
+  img(src='img/core-img/salad.png', alt='')
+// Search Wrapper
+.search-wrapper
+  // Close Btn
+  .close-btn
+    i.fa.fa-times(aria-hidden='true')
+  .container
+    .row
+      .col-12
+        form(action='#', method='post')
+          input(type='search', name='search', placeholder='Type any keywords...')
+          button(type='submit')
+            i.fa.fa-search(aria-hidden='true')
+// ##### Header Area Start #####
+header.header-area
+  // Top Header Area
+  .top-header-area
+    .container.h-100
+      .row.h-100.align-items-center.justify-content-between
+        // Breaking News
+        .col-12.col-sm-6
+          .breaking-news
+            #breakingNewsTicker.ticker
+              ul
+                li
+                  a(href='#') Welcome to The Neon Flamingo
+                li
+                  a(href='#') New Receipies Every Week!
+                li
+                  a(href='#') Enjoy!
+        // Top Social Info
+        .col-12.col-sm-6
+          .top-social-info.text-right
+            a(href='#')
+              i.fa.fa-pinterest(aria-hidden='true')
+            a(href='#')
+              i.fa.fa-facebook(aria-hidden='true')
+            a(href='#')
+              i.fa.fa-twitter(aria-hidden='true')
+            a(href='#')
+              i.fa.fa-dribbble(aria-hidden='true')
+            a(href='#')
+              i.fa.fa-behance(aria-hidden='true')
+            a(href='#')
+              i.fa.fa-linkedin(aria-hidden='true')
+  // Navbar Area
+  .delicious-main-menu
+    .classy-nav-container.breakpoint-off
+      .container
+        // Menu
+        nav#deliciousNav.classy-navbar.justify-content-between
+          // Logo
+          a.nav-brand(href='index.html')
+            img(src='img/core-img/CocktailRecipess.jpg', alt='')
+          // Menu
+          .classy-menu
+          // close btn
+          .classycloseIcon
+            .cross-wrap
+              span.top
+              span.bottom
+          // Nav Start
+          .classynav
+            ul
+              li.active
+                a(href='index.html') Home
+              li
+                a(href='#') Pages
+                ul.dropdown
+                  li
+                    a(href='index.html') Home
+                  li
+                    a(href='about.html') About Us
+                  li
+                    a(href='blog-post.html') Blog Post
+                  // Nav End
+// ##### Header Area End #####
+// ##### Breadcumb Area Start #####
+.breadcumb-area.bg-img.bg-overlay(style='background-image: url(img/bg-img/breadcumb1.jpg);')
+  .container.h-100
+    .row.h-100.align-items-center
+      .col-12
+        .breadcumb-text.text-center
+          h2 About us
+// ##### Breadcumb Area End #####
+// ##### About Area Start #####
+section.about-area.section-padding-80
+  .container
+    .row
+      .col-12
+        .section-heading
+          h3 Who we are and what we do?
+    .row
+      .col-12
+        h6.sub-heading.pb-5
+          | We bridge the gap between you and you&apos;re friends to your favorite beverages and meals that go together with your all time favorite foods
+        p.text-center
+          | We believe people should have the luxury to enjoy their very favorite beverages and cocktails with their all time favorite foods, simple easy drink recipes and food suggestions that go along with those meals. We curate the best and easily preparable drink recipes to fit you&apos;re needs, taste buds and events.
+    .row.align-items-center.mt-70
+      // Single Cool Fact
+      .col-12.col-sm-6.col-lg-3
+        .single-cool-fact
+          img(src='img/core-img/salad.png', alt='')
+          h3
+            span.counter 21
+          h6 Amazing Drink Receipies
+      // Single Cool Fact
+      .col-12.col-sm-6.col-lg-3
+        .single-cool-fact
+          img(src='img/core-img/hamburger.png', alt='')
+          h3
+            span.counter 21
+          h6 Food Suggestions
+      .row
+        .col-12
+          img.mb-70(src='img/core-img/socialdrinks.jpg', alt='social')
+// ##### About Area End #####
+// ##### Contact Area Start #####
+.contact-area.section-padding-0-80
+  .container
+    .row
+      .col-12
+        .section-heading
+          h3 Contact Us
+    .row
+      .col-12
+        .contact-form-area
+          form(action='#', method='post')
+            .row
+              .col-12.col-lg-6
+                input#name.form-control(type='text', placeholder='Who are ya bruv?')
+              .col-12.col-lg-6
+                input#email.form-control(type='email', placeholder="What's your personal email if you don't mind me asking?")
+              .col-12
+                input#subject.form-control(type='text', placeholder="What's up?")
+              .col-12
+                textarea#message.form-control(name='message', cols='30', rows='10', placeholder='Shoot your shot!')
+              .col-12.text-center
+                button.btn.delicious-btn.mt-30(type='submit') Send
+// ##### Contact Area End #####
+// ##### Footer Area Start #####
+footer.footer-area
+  .container.h-100
+    .row.h-100
+      .col-12.h-100.d-flex.flex-wrap.align-items-center.justify-content-between
+        // Footer Social Info
+        .footer-social-info.text-right
+          a(href='#')
+            i.fa.fa-pinterest(aria-hidden='true')
+          a(href='#')
+            i.fa.fa-facebook(aria-hidden='true')
+          a(href='#')
+            i.fa.fa-twitter(aria-hidden='true')
+          a(href='#')
+            i.fa.fa-dribbble(aria-hidden='true')
+          a(href='#')
+            i.fa.fa-behance(aria-hidden='true')
+          a(href='#')
+            i.fa.fa-linkedin(aria-hidden='true')
+        // Footer Logo
+        .footer-logo
+          a(href='index.html')
+            img(src='img/core-img/CocktailRecipess.jpg', alt='')
+        // Copywrite
+        p
+          // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+          | Copyright &copy;
+          script.
+            document.write(new Date().getFullYear());
+          |  All rights reserved | This template is made with 
+          i.fa.fa-heart-o(aria-hidden='true')
+          |  by 
+          a(href='https://colorlib.com', target='_blank') Colorlib
+          // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+// ##### Footer Area Start #####
+// ##### All Javascript Files #####
+// jQuery-2.2.4 js
+script(src='js/jquery/jquery-2.2.4.min.js')
+// Popper js
+script(src='js/bootstrap/popper.min.js')
+// Bootstrap js
+script(src='js/bootstrap/bootstrap.min.js')
+// All Plugins js
+script(src='js/plugins/plugins.js')
+// Active js
+script(src='js/active.js')

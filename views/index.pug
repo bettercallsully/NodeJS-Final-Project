@@ -1,0 +1,210 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='description', content='')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  // The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags
+  // Title
+  title The Neon Flamingo
+  // Favicon
+  link(rel='icon', href='img/core-img/favicon.ico')
+  // Core Stylesheet
+  link(rel='stylesheet', href='style.css')
+// Preloader
+#preloader
+  i.circle-preloader
+  img(src='img/core-img/m', alt='')
+// Search Wrapper
+.search-wrapper
+  // Close Btn
+  .close-btn
+    i.fa.fa-times(aria-hidden='true')
+  .container
+    .row
+      .col-12
+        form(action='#', method='post')
+          input(type='search', name='search', placeholder='Type any keywords...')
+          button(type='submit')
+            i.fa.fa-search(aria-hidden='true')
+// ##### Header Area Start #####
+header.header-area
+  // Top Header Area
+  .top-header-area
+    .container.h-100
+      .row.h-100.align-items-center.justify-content-between
+        // Breaking News
+        .col-12.col-sm-6
+          .breaking-news
+            #breakingNewsTicker.ticker
+              ul
+                li
+                  a(href='#') Welcome to The Neon Flamingo
+                li
+                  a(href='#') New Recipes Every Week!
+                li
+                  a(href='#') Enjoy!
+        // Top Social Info
+        .col-12.col-sm-6
+          .top-social-info.text-right
+            a(href='#')
+              i.fa.fa-pinterest(aria-hidden='true')
+            a(href='#')
+              i.fa.fa-facebook(aria-hidden='true')
+            a(href='#')
+              i.fa.fa-twitter(aria-hidden='true')
+            a(href='#')
+              i.fa.fa-dribbble(aria-hidden='true')
+            a(href='#')
+              i.fa.fa-behance(aria-hidden='true')
+            a(href='#')
+              i.fa.fa-linkedin(aria-hidden='true')
+  // Navbar Area
+  .delicious-main-menu
+    .classy-nav-container.breakpoint-off
+      .container
+        // Menu
+        nav#deliciousNav.classy-navbar.justify-content-between
+          // Logo
+          a.nav-brand(href='index.html')
+            img(src='img/core-img/CocktailRecipess.jpg', alt='Neon Flamingo')
+          // Menu
+          .classy-menu
+          // close btn
+          .classycloseIcon
+            .cross-wrap
+              span.top
+              span.bottom
+          // Nav Start
+          .classynav
+            ul
+              li.active
+                a(href='index.html') Home
+              li
+                a(href='#') Pages
+                ul.dropdown
+                  li
+                    a(href='index.html') Home
+                  li
+                    a(href='about.html') About Us
+                  li
+                    a(href='blog-post.html') Blog Post
+                // Nav End
+// ##### Header Area End #####
+// ##### Hero Area Start #####
+section.hero-area
+  .hero-slides.owl-carousel
+    // Single Hero Slide
+    .single-hero-slide.bg-img(style='background-image: url(img/bg-img/bg1.jpg);')
+      .container.h-100
+        .row.h-100.align-items-center
+          .col-12.col-md-9.col-lg-7.col-xl-6
+            .hero-slides-content(data-animation='fadeInUp', data-delay='100ms')
+              h2(data-animation='fadeInUp', data-delay='300ms') Brandy Old-Fashioned Sweet
+              p(data-animation='fadeInUp', data-delay='700ms')
+                | The concept of an old-fashioned dates back to the early 1800&apos;. This version is extremely popular in Wisconsin.
+              a.btn.delicious-btn(href='receipe-post.html', data-animation='fadeInUp', data-delay='1000ms') See Receipe
+    // Single Hero Slide
+    .single-hero-slide.bg-img(style='background-image: url(img/bg-img/bg6.jpg);')
+      .container.h-100
+        .row.h-100.align-items-center
+          .col-12.col-md-9.col-lg-7.col-xl-6
+            .hero-slides-content(data-animation='fadeInUp', data-delay='100ms')
+              h2(data-animation='fadeInUp', data-delay='300ms') Americano Cocktail Recipe
+              p(data-animation='fadeInUp', data-delay='700ms')
+                | The cocktail consists of bittersweet taste of Campari paired with sweet vermouth and club soda.
+              a.btn.delicious-btn(href='receipe-post.html', data-animation='fadeInUp', data-delay='1000ms') See Receipe
+    // Single Hero Slide
+    .single-hero-slide.bg-img(style='background-image: url(img/bg-img/bg7.jpg);')
+      .container.h-100
+        .row.h-100.align-items-center
+          .col-12.col-md-9.col-lg-7.col-xl-6
+            .hero-slides-content(data-animation='fadeInUp', data-delay='100ms')
+              h2(data-animation='fadeInUp', data-delay='300ms') Moscow Mule
+              p(data-animation='fadeInUp', data-delay='700ms')
+                | Originally developed in the 1940&apos;s, the Moscow Mule has made a big comeback is now one of the most popular mixed drinks. Could be it&apos;s refreshing taste or that pretty copper mug.
+              a.btn.delicious-btn(href='receipe-post.html', data-animation='fadeInUp', data-delay='1000ms') See Receipe
+// ##### Hero Area End #####
+// ##### Top Catagory Area Start #####
+section.top-catagory-area.section-padding-80-0
+  .container
+    .row
+      // Top Catagory Area
+// ##### Best Receipe Area End #####
+// ##### CTA Area Start #####
+section.cta-area.bg-img.bg-overlay(style='background-image: url(img/bg-img/bg4.jpg);')
+  .container.h-100
+    .row.h-100.align-items-center
+      .col-12
+        // Cta Content
+        .cta-content.text-center
+          h2 The Best Drink Receipes
+          p The best beverages curated from the people, by the people
+          a.btn.delicious-btn(href='receipe-post.html') Discover all the receipies
+// ##### CTA Area End #####
+// ##### Small Receipe Area Start #####
+section.small-receipe-area.section-padding-80-0
+  .container
+    .row
+      // ##### Small Receipe Area End #####
+      // ##### Quote Subscribe Area Start #####
+      section.quote-subscribe-adds
+        .container
+          .row.align-items-end
+            // Quote
+            .col-12.col-lg-4
+              .quote-area.text-center
+                span &quot;
+                h4
+                  | Nothing is better than sharing some of the best drink recipes with my friends when we get together
+                p Tracy Campbell
+                .date-comments.d-flex.justify-content-between
+                  .date January 04, 2018
+                  .comments 2 Comments
+            // Newsletter
+            .col-12.col-lg-4
+              .newsletter-area
+                h4 Subscribe to our newsletter for all the new and exciting drink recipes your area
+                // Form
+                .newsletter-form.bg-img.bg-overlay(style='background-image: url();')
+                  form(action='#', method='post')
+                    input(type='email', name='email', placeholder='Subscribe to newsletter')
+                    button.btn.delicious-btn.w-100(type='submit') Subscribe
+            // Adds
+            .col-12.col-lg-4
+              .delicious-add
+                img(src='img/core-img/brandyoldfashioned.jpg', alt='')
+      // ##### Quote Subscribe Area End #####
+      // ##### Footer Area Start #####
+      footer.footer-area
+        .container.h-100
+          .row.h-100
+            .col-12.h-100.d-flex.flex-wrap.align-items-center.justify-content-between
+              // Footer Social Info
+              // Footer Logo
+              .footer-logo
+                a(href='index.html')
+                  img(src='img/core-img/CocktailRecipess.jpg', alt='')
+              // Copywrite
+              p
+                // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                | Copyright &copy;
+                script.
+                  document.write(new Date().getFullYear());
+                |  All rights reserved | This template is made with 
+                i.fa.fa-heart-o(aria-hidden='true')
+                |  by 
+                a(href='https://colorlib.com', target='_blank') Colorlib
+                // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+      // ##### Footer Area Start #####
+      // ##### All Javascript Files #####
+      // jQuery-2.2.4 js
+      script(src='js/jquery/jquery-2.2.4.min.js')
+      // Popper js
+      script(src='js/bootstrap/popper.min.js')
+      // Bootstrap js
+      script(src='js/bootstrap/bootstrap.min.js')
+      // All Plugins js
+      script(src='js/plugins/plugins.js')
+      // Active js
+      script(src='js/active.js')
